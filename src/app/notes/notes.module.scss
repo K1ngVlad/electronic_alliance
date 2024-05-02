@@ -1,0 +1,41 @@
+.notes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .container {
+    width: 1000px;
+    .title {
+      color: black;
+      font-size: 30px;
+      margin-top: 30px;
+    }
+    .noteItem {
+      border: solid 2px rgba(0, 128, 0, 0.3);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      align-items: center;
+      img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+      }
+      h3 {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      p {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  padding-bottom: 30px;
+}
